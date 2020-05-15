@@ -19,7 +19,7 @@ public class Post {
     private Long id;
 
     @Version
-    private long version;
+    private Long version;
 
     @NotNull
     @Size(min = 4, max = 100)
